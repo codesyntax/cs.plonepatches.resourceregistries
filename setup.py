@@ -26,6 +26,7 @@ setup(name='cs.plonepatches.resourceregistries',
       install_requires=[
           'setuptools',
           'collective.monkeypatcher',
+          'Plone>=4.2'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
