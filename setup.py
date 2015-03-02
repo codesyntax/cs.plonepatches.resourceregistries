@@ -6,7 +6,7 @@ version = '1.0'
 setup(name='cs.plonepatches.resourceregistries',
       version=version,
       description="A patch for Resource Registries to create a single minified file. Two if the user is logged-in",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
