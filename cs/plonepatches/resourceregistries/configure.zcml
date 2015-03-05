@@ -7,7 +7,7 @@
     <include package="collective.monkeypatcher" />
 
     <monkey:patch
-        description="Create one minified file in Resource Registries. Two if the use is logged-in users."
+        description="Create one minified file in Resource Registries. Two if the user is logged-in users."
         class="Products.ResourceRegistries.tools.BaseRegistry.BaseRegistryTool"
         original="cookResources"
         replacement=".BaseRegistry.cookResources"
