@@ -7,7 +7,7 @@ It also has a feature to concatenate several CSS or JS files to serve less files
 
 We have 4 files registered in this order: a.css, b.css, c.css and d.css. If a.css, b.css and d.css are compatible to be concatenated but c.css is not, `Resource Registries`_ will create 3 files: ab.css, c.css and d.css.
 
-This product, patches the way those concatenated files are created to check all previously concatenated files and concatenate the file there. This way, in the previous example, the patch will create 2 files: abd.css and d.css
+This product, patches the way those concatenated files are created to check all previously concatenated files and concatenate the file there. This way, in the previous example, the patch will create 2 files: abd.css and c.css
 
 
 Installing
